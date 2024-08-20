@@ -1,0 +1,93 @@
+*
+{
+margin:0;
+padding:0;
+}
+
+nav{
+display:flex;
+justify-content: space-between;
+align-items: center;
+}
+nav U1{
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 50%;
+list-style: none;
+}
+.lbutton
+{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius:  20px;   
+}
+.main-section
+{
+margin-top: 60px;
+margin-left: 100px;
+}
+.main-section
+{
+    font-size: 45px;
+
+}
+.sub1,.sub2,.sub3,.sub4 
+{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    
+    font-size: 10px;
+
+
+}
+.sub1 ul,.sub2 ul,.sub3 ul,.sub4 ul{
+    list-style-type: none;
+
+
+}
+.main-div     
+
+{
+    display: flex   ;
+}
+.phone
+{
+margin-top: 50px;
+margin-left: 50px;
+
+
+}
+.sbutton
+{
+    margin-left: 500px;
+}
+.third
+{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin-top: 30px;
+    margin-left: 150px;
+}  
+nav ul{
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 60%;
+list-style: none;
+margin-left: 200px;
+}
+nav up{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+width: 20%;
+list-style: none;
+margin-left: 380px;
+
+
+
+}
