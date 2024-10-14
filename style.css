@@ -1,93 +1,87 @@
 *
 {
-margin:0;
-padding:0;
+   margin: 0;
+   padding: 0;
 }
-
-nav{
-display:flex;
-justify-content: space-between;
-align-items: center;
-}
-nav U1{
-display: flex;
-justify-content: space-between;
-align-items: center;
-width: 50%;
-list-style: none;
-}
-.lbutton
-{
-    background-color: black;
-    color: white;
-    padding: 10px;
-    border-radius:  20px;   
-}
-.main-section
-{
-margin-top: 60px;
-margin-left: 100px;
-}
-.main-section
-{
-    font-size: 45px;
-
-}
-.sub1,.sub2,.sub3,.sub4 
+.showcase
 {
     display: flex;
+    /* y axis to x axis*/
     align-items: center;
-    margin-left: 100px;
-    
-    font-size: 10px;
-
-
+    justify-content: center;
+    height: 100vh;
+    position: relative;
 }
-.sub1 ul,.sub2 ul,.sub3 ul,.sub4 ul{
-    list-style-type: none;
-
-
-}
-.main-div     
-
+.video-container
 {
-    display: flex   ;
+ position: absolute;
+ height: 100%;
+ width: 100%;
+ 
 }
-.phone
+.video-content
 {
-margin-top: 50px;
-margin-left: 50px;
+ z-index: 1;
+ font-size: 40px;
+}
+.video-content a
+{
+    background-color: red;
+    color: blueviolet;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    line-height: 10px;
+}
+.video-content a:hover
+{
+ text-decoration: underline;
+ color: yellowgreen;
 
-
 }
-.sbutton
-{
-    margin-left: 500px;
-}
-.third
-{
-    display: flex;
-    align-items: center;
-    justify-items: center;
-    margin-top: 30px;
-    margin-left: 150px;
+.video-content h1{
+    font-size: 40px;
+    background-color:gray
 }  
-nav ul{
-display: flex;
-justify-content: space-between;
-align-items: center;
-width: 60%;
-list-style: none;
-margin-left: 200px;
-}
-nav up{
-    display: flex;
-justify-content: space-between;
-align-items: center;
-width: 20%;
-list-style: none;
-margin-left: 380px;
 
+#Story1
+{
+    margin-top: 200px;
+    margin-left: 20px;
+}
+#Story1 {
+    color: rgb(168, 10, 42);
+    font-size: 50px;
+    font-style: oblique;
+
+}
+#Story1 h1{
+    font-size: 100px;
+    background-color: blue;
+    color: azure;
+
+}
+#Story2
+{
+    margin-top: 200px;
+    margin-left: 20px;
+}
+#Story2 {
+    color: rgb(99, 30, 210);
+    font-size: 50px;
+
+}
+#Story2 h1{
+     font-size: 200px;
+    background-color: rgb(21, 167, 106);
+    color: rgb(21, 109, 109);
+}
+#footer
+{
+    text-align: center;
+    background-color: rgb(221, 67, 79);
+    color: rgb(34, 27, 29);
+    font-size: 50px;
 
 
 }
